@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "395420801757",
+    "firebase_url": "https://contact-c2d00.firebaseio.com",
+    "project_id": "contact-c2d00",
+    "storage_bucket": "contact-c2d00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395420801757:android:7ced4f3dee3e4c5f",
+        "android_client_info": {
+          "package_name": "com.example.vivek.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395420801757-58t4q59q9mn95ctlmlu1bciijtn2fj94.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vivek.firebase",
+            "certificate_hash": "92E42E00A3D8E922B1B41F0BC678E3E9FA875F18"
+          }
+        },
+        {
+          "client_id": "395420801757-ls977920h9j5hr7eft3aqg7444q9hb7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIDGU7ET0sf0W3ENSFm-KUTUv1sxNFDdE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395420801757-ls977920h9j5hr7eft3aqg7444q9hb7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

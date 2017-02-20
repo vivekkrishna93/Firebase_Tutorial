@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vivek.firebase.Login_activity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/emaillg"
+        android:layout_alignEnd="@+id/emaillg"
+        android:id="@+id/pwdlg"
+        android:hint="Password" />
+
+
+    <Button
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:onClick="clickme"
+        android:id="@+id/loginmain"
+        android:layout_below="@+id/pwdlg"
+        android:layout_alignLeft="@+id/pwdlg"
+        android:layout_alignStart="@+id/pwdlg" />
+
+    <Button
+        android:text="Sign up!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_alignBaseline="@+id/loginmain"
+        android:layout_alignBottom="@+id/loginmain"
+        android:layout_alignRight="@+id/pwdlg"
+        android:layout_alignEnd="@+id/pwdlg"
+        android:onClick="reg" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/emaillg"
+        android:hint="Email"
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp"
+        android:layout_above="@+id/pwdlg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginStart="43dp"
+        android:layout_below="@+id/loginmain"
+        android:layout_alignLeft="@+id/loginmain"
+        android:layout_alignStart="@+id/loginmain" />
+
+    <TextView
+        android:text="Forgot password?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgotpass"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/sign_in_button"
+        android:layout_alignLeft="@+id/sign_in_button"
+        android:layout_alignStart="@+id/sign_in_button" />
+
+</RelativeLayout>
